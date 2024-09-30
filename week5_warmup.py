@@ -1,30 +1,30 @@
 # Problem Set 1: Indexing and Slicing Strings
 # Basic Indexing:
-# magic = 'abracadabra'
+magic = 'abracadabra'
 # # a. Retrieve the 5th character.
-# print(magic [4])
+print(magic [4])
 # # b. Retrieve the second to last character.
-# print(magic [9]) 
+print(magic [9]) 
 # # c. Find the first occurrence of the letter 'c'.
-# print(magic[5])
+print(magic[5])
 # Advanced Slicing:
-# alphebet = "abcdefghijklmnopqrstuvwxyz"
+alphebet = "abcdefghijklmnopqrstuvwxyz"
 # # a. Extract the letters 'hij'.
-# print(alphebet[7:10])
+print(alphebet.find('hij'))
+print(alphebet[7:10])
 # # b. Extract every second letter starting from 'a' to 'm'.
-# print(alphebet [0:12:2])
+print(alphebet [0:12:2])
 # # c. Reverse the entire string using slicing.
-# print(alphebet [::-1])
+print(alphebet [::-1])
 # Problem Set 2: Extracting Information
 # From Descriptions:
-# quote= "Ask not what your country can do for you — ask what you can do for your country. - John F. Kennedy"
-# print(quote.find('John F. Kennedy'))
-# print(quote [83:98])
+quote= "Ask not what your country can do for you — ask what you can do for your country. - John F. Kennedy"
+print(quote.find('John F. Kennedy'))
+print(quote [83:])
 # Manipulating Words:
-# info = "Python is fun. Fun is good. Good is subjective.",
+info = "Python is fun. Fun is good. Good is subjective.",
 # # a. Extract the word 'subjective' without knowing its exact position.
-
-# print(result[35:45])
+info.find('subective')
 
 
 # b. Extract every third word.
